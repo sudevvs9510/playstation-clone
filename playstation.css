@@ -183,7 +183,7 @@ header {
    padding: 2px 0;
 }
 
-.header-game-btn button {
+.header-game-btn a {
    background-color: #fff;
    border: none;
    border-radius: 32px;
@@ -191,8 +191,11 @@ header {
    cursor: pointer;
 }
 
+.header-game-btn a:hover{
+   background-color: #e0e0e0;
+}
 
-.header-game-btn .btn span {
+.header-game-btn span {
    color: #000;
    font-size: 16px;
    font-weight: 600;
@@ -219,23 +222,14 @@ header {
 }
 
 .sec-1-img img:hover {
-
    opacity: 100;
    transform:scale(1.02);
    transition: transform 0.25s;
 }
 
-/* .sec-1-img:nth-child(1){
-   border:2.5px solid #0070CC ;
-   border-radius: 16px;
-   padding:4px 5px;
-   opacity: 100%;
-} */
-
-/* .sec-1-img:nth-child:hover{
-   border:2.5px solid #0070CC ;
-   border-radius: 18px;
-} */
+.sec-1-img-1:nth-child(1){
+   opacity:1;
+}
 
 /* section-1 felxbox ends */
 
@@ -289,6 +283,10 @@ header {
    border-radius: 32px;
    cursor:pointer;
 }
+.section-2-btn button:hover{
+   background-color: #00439C;
+}
+
 
 .section-2-btn span {
    color: rgb(255, 255, 255);
@@ -338,6 +336,10 @@ header {
    border-radius: 18px;
 }
 
+.sec-3-img-1:nth-child(1) {
+   opacity:1;
+}
+
 .sec-3-box img {
    object-fit: contain;
    padding: 18px 18px 0 18px;
@@ -348,7 +350,7 @@ header {
 }
 
 .sec-3-box img:hover {
-   opacity: 100;
+   opacity: 1;
    transform: scale(1.05);
    transition: transform 0.25s;
 }
@@ -417,6 +419,10 @@ header {
    cursor:pointer;
 }
 
+.sec-4-btn button:hover{
+   background-color: #00439C;
+}
+
 .sec-4-btn span {
    color: rgb(255, 255, 255);
    font-size: 16px;
@@ -466,6 +472,10 @@ header {
    border-radius: 36px;
    padding: 14px 18px;
    cursor:pointer;
+}
+
+.sec-5-btn button:hover{
+   background-color: #e0e0e0;
 }
 
 .sec-5-btn button span {
@@ -591,11 +601,15 @@ header {
 }
 
 .sec-6-btn button {
-   background-color: rgb(214, 61, 0);
+   background-color: rgb(236, 71, 5);
    border: none;
    padding: 12px 16px;
    border-radius: 32px;
    cursor:pointer;
+}
+
+.sec-6-btn button:hover{
+   background-color: rgb(214, 61, 0);
 }
 
 .sec-6-btn span {
@@ -768,6 +782,10 @@ header {
    cursor:pointer;
 }
 
+.sec-8-btn-box button:hover{
+background-color: #00439C;
+}
+
 .sec-8-btn-box span {
    font-size: 16px;
    font-weight: 600;
@@ -841,11 +859,15 @@ header {
 }
 
 .sec-9-btn-box button {
-   background-color: rgb(213, 59, 0);
+   background-color: rgb(236, 71, 5);
    border: none;
    border-radius: 32px;
    padding: 12px 16px;
    cursor:pointer;
+}
+
+.sec-9-btn-box button:hover{
+   background-color: rgb(213, 59, 0);
 }
 
 .sec-9-btn-box span {
